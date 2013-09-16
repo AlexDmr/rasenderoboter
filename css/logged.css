@@ -1,0 +1,76 @@
+body > header {
+	background	: #49F;
+}
+
+body > section {
+	background	: #6AF;
+}
+
+body > footer {
+	background	: #49F;
+}
+
+#plateau {
+	border-collapse	: collapse;
+	border			: solid black 3px;
+	margin			: auto;
+}
+
+#plateau td {
+	width: 24px;
+	height: 24px;
+	margin:0px;
+	padding:0px;
+	border: dashed black 1px;
+	background: #AAA;
+}
+
+#plateau td.g {
+	border-left: solid black 3px;
+}
+
+#plateau td.h {
+	border-top: solid black 3px;
+}
+
+#plateau td.d {
+	border-right: solid black 3px;
+}
+
+#plateau td.b {
+	border-bottom: solid black 3px;
+}
+
+#plateau td.color_green {
+	background: #7F7;
+}
+
+#plateau td.color_yellow {
+	background: #DD7;
+}
+
+#plateau td.color_red {
+	background: #F77;
+}
+
+#plateau td.color_blue {
+	background: #77F;
+}
+
+#plateau td.droppable {
+	background: white;
+}
+
+div.robot {
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+	margin: 4px;
+}
+
+div.robot:hover	{cursor: pointer;}
+div.robot.blue	{background: #00F;}
+div.robot.red	{background: #F00;}
+div.robot.yellow	{background: #FF0;}
+div.robot.green	{background: #0F0;}

@@ -1,0 +1,32 @@
+html, body {
+	display		: flex;
+	flex-flow	: column;
+	height		: 100%;
+	margin-bottom : 0px;
+}
+
+body > header {
+	text-align	: center;
+	flex		: 0 3cm;
+}
+
+body > section {
+	flex		: 1;
+	border-top	: solid black 1px;
+	display		: flex;
+}
+
+body > section > nav {
+	flex		: 0 5cm;
+	border-right: solid black 1px;
+}
+
+body > section > section {
+	flex		: 1;
+}
+
+body > footer {
+	flex		: 0 1cm;
+	border-top	: solid black 1px;
+	margin-top: auto;
+}
